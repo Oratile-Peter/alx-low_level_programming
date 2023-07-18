@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * main - Entry point
- * Description 'prints _putchar to stdout'
- * Return: always 0
- * */
-int main (void)
+ * main -Entry point of my code,
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -12,8 +14,9 @@ int main (void)
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
-	-putchar('a');
-	-putchar('r');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
-}	
+}
+
